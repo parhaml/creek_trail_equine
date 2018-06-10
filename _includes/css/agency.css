@@ -126,7 +126,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: #{{ site.data.template.color.secondary }};;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -177,14 +177,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.header }};
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #fff;
 }
 
 .navbar-default .navbar-collapse {
@@ -197,11 +197,16 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #{{ site.data.template.color.secondary }};
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
+    background-color: #{{ site.data.template.color.secondary }};
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -210,7 +215,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #{{ site.data.template.color.header }};
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -219,19 +224,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    color: #000;
     background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    color: #{{site.data.template.color.secondary}};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 @media(min-width:768px) {
@@ -664,7 +669,7 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #{{site.data.template.color.primary}};
 }
 
 section#contact .form-group {
@@ -673,6 +678,7 @@ section#contact .form-group {
 
 section#contact .form-group input,
 section#contact .form-group textarea {
+    background-color: #{{site.data.template.color.primary}};
     padding: 20px;
 }
 
@@ -724,12 +730,14 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    background-color: #{{site.data.template.color.secondary }};
 }
 
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
+    color: #{{site.data.template.color.primary}};
     line-height: 40px;
 }
 
@@ -753,7 +761,7 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
+    color: #{{site.data.template.color.primary}};
     background-color: #222;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -764,6 +772,7 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.secondary }};
 }
 
 .btn:focus,
