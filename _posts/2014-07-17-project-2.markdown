@@ -4,12 +4,8 @@ subtitle: Facilities and Horse Care
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+img: boarding.jpg
+thumbnail: boardingThumb.jpg
+alt: link to boarding information
+description: <p><strong>Rates:</strong><br>$150.00/month during grazing season<br>$175.00/month during hay season</p><p><strong>Boarding Includes:</strong><br>3 pastures with run-in sheds<br>1 extra paddock<br>Large dry corral with run-in shed<br>60’ round pen<br>80x160’ arena<br>Large riding path around property perimeter<br>Tack room<br>Parking for horse trailers<br></p><p><strong>Horse Care Includes:</strong><br>Feeding 2 times a day<br>Fresh water<br>Daily health checks<br>Our <a href="http://www.neokequine.com/" target="_blank">equine veternarian</a> is 5 minutes away<br>Excellent farrier available</p>
 ---
