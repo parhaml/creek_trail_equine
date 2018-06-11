@@ -241,9 +241,9 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 5px 0;
         border: 0;
-        background-color: transparent;
+        background-color: rgba(0,0,0,0.65);
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -273,9 +273,9 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center center;
+    background-position: bottom;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -284,12 +284,12 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 2em;
     padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-top: 25px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
     font-style: italic;
@@ -307,8 +307,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
 
     header .intro-text .intro-lead-in {
@@ -791,6 +791,10 @@ ul.social-buttons li a:active {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+.portfolio-modal .modal-content a {
+    color: #222;
 }
 
 .portfolio-modal .modal-content h2 {
