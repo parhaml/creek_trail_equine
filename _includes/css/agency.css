@@ -796,6 +796,11 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content a {
     color: #222;
+    text-decoration: underline;
+}
+
+.portfolio-modal .modal-content a:hover{
+    font-weight: bolder;
 }
 
 .portfolio-modal .modal-content h2 {
