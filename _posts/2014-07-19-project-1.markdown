@@ -1,0 +1,11 @@
+---
+title: About Us
+subtitle: (We're Awesome)
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: CashandJuno.jpg
+thumbnail: CashandJunoThumb.jpg
+alt: image-alt
+description: <p>Creek Trail Equine, located in the rolling hills of Stone Bluff, OK, is a family-owned business offering horse boarding services. After raising our two sons in Broken Arrow, we followed our dream &mdash; moving to the country as retired empty-nesters. Our younger son and his wife soon followed, leaving the city and building a house on the property. We enjoy 13 acres that revolve around our horses and would love for yours to join us.</p><p>We offer pasture boarding featuring run-in sheds in each of our three pastures. We have various riding and training facilities for your use, consisting of an arena, a round pen and riding paths. A tack room and trailer parking are included. Whether you have an active horse or need a relaxing home for a retired horse, we fit your needs.</p><p>Loving our life,<br>Phil and Karen</p>
+---
